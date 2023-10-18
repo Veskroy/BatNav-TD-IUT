@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "JouerUnePartieDeBatailleNavale/1.0.0": {
+        "dependencies": {
+          "MoteurDeBatailleNavale": "1.0.0"
+        },
+        "runtime": {
+          "JouerUnePartieDeBatailleNavale.dll": {}
+        }
+      },
+      "MoteurDeBatailleNavale/1.0.0": {
+        "runtime": {
+          "MoteurDeBatailleNavale.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JouerUnePartieDeBatailleNavale/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MoteurDeBatailleNavale/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

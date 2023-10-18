@@ -35,7 +35,7 @@
         /// Une propriété « Ligne » de type byte afin de stocker une valeur de 1 à 10 en lecture 
         /// publique uniquement.
         /// </summary>
-        public byte Ligne { get; }
+        public byte Ligne { get; set; }
 
 
         /// <summary>
@@ -46,7 +46,7 @@
         public CoordonnéesDeBatailleNavale(char colone, byte ligne)
         {
             List<char> liste = new List<char> { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J' };
-            if (!(liste.Contains(colone)) && (ligne < 1 && ligne > 10)) ;
+            if (!(liste.Contains(colone)) && (ligne < 1 && ligne > 10)) 
             { throw new ArgumentOutOfRangeException(); }
 
             this.Colone = colone;
@@ -73,7 +73,7 @@
 
         public interface IContratDuJoueurDeBatailleNavale
         {
-            public string Pseudo { get ;}
+            public string Pseudo { get; set; }
 
             public void PréparerLaBataille();
             public CoordonnéesDeBatailleNavale AttaquantChoisirLesCoordonnéesDeTir();

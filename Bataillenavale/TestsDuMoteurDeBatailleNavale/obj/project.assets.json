@@ -1661,6 +1661,19 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "JouerUnePartieDeBatailleNavale/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MoteurDeBatailleNavale": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JouerUnePartieDeBatailleNavale.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JouerUnePartieDeBatailleNavale.dll": {}
+        }
+      },
       "MoteurDeBatailleNavale/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -6208,6 +6221,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "JouerUnePartieDeBatailleNavale/1.0.0": {
+      "type": "project",
+      "path": "../JouerUnePartieDeBatailleNavale/JouerUnePartieDeBatailleNavale.csproj",
+      "msbuildProject": "../JouerUnePartieDeBatailleNavale/JouerUnePartieDeBatailleNavale.csproj"
+    },
     "MoteurDeBatailleNavale/1.0.0": {
       "type": "project",
       "path": "../MoteurDeBatailleNavale/MoteurDeBatailleNavale.csproj",
@@ -6216,6 +6234,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "JouerUnePartieDeBatailleNavale >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.8",
       "MSTest.TestFramework >= 2.2.8",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
@@ -6230,11 +6249,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\kpat0001\\TD3\\Bataillenavale\\TestsDuMoteurDeBatailleNavale\\TestsDuMoteurDeBatailleNavale.csproj",
+      "projectUniqueName": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\TestsDuMoteurDeBatailleNavale\\TestsDuMoteurDeBatailleNavale.csproj",
       "projectName": "TestsDuMoteurDeBatailleNavale",
-      "projectPath": "C:\\Temp\\kpat0001\\TD3\\Bataillenavale\\TestsDuMoteurDeBatailleNavale\\TestsDuMoteurDeBatailleNavale.csproj",
+      "projectPath": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\TestsDuMoteurDeBatailleNavale\\TestsDuMoteurDeBatailleNavale.csproj",
       "packagesPath": "C:\\Users\\kpat0001\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\kpat0001\\TD3\\Bataillenavale\\TestsDuMoteurDeBatailleNavale\\obj\\",
+      "outputPath": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\TestsDuMoteurDeBatailleNavale\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6255,8 +6274,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Temp\\kpat0001\\TD3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj": {
-              "projectPath": "C:\\Temp\\kpat0001\\TD3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj"
+            "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\JouerUnePartieDeBatailleNavale\\JouerUnePartieDeBatailleNavale.csproj": {
+              "projectPath": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\JouerUnePartieDeBatailleNavale\\JouerUnePartieDeBatailleNavale.csproj"
+            },
+            "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj": {
+              "projectPath": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj"
             }
           }
         }

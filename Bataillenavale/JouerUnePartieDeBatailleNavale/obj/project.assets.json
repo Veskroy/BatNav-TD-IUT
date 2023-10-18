@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MoteurDeBatailleNavale/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MoteurDeBatailleNavale.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MoteurDeBatailleNavale.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MoteurDeBatailleNavale/1.0.0": {
+      "type": "project",
+      "path": "../MoteurDeBatailleNavale/MoteurDeBatailleNavale.csproj",
+      "msbuildProject": "../MoteurDeBatailleNavale/MoteurDeBatailleNavale.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MoteurDeBatailleNavale >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kpat0001\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\kpat0001\\TD3\\Bataillenavale\\JouerUnePartieDeBatailleNavale\\JouerUnePartieDeBatailleNavale.csproj",
+      "projectUniqueName": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\JouerUnePartieDeBatailleNavale\\JouerUnePartieDeBatailleNavale.csproj",
       "projectName": "JouerUnePartieDeBatailleNavale",
-      "projectPath": "C:\\Temp\\kpat0001\\TD3\\Bataillenavale\\JouerUnePartieDeBatailleNavale\\JouerUnePartieDeBatailleNavale.csproj",
+      "projectPath": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\JouerUnePartieDeBatailleNavale\\JouerUnePartieDeBatailleNavale.csproj",
       "packagesPath": "C:\\Users\\kpat0001\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\kpat0001\\TD3\\Bataillenavale\\JouerUnePartieDeBatailleNavale\\obj\\",
+      "outputPath": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\JouerUnePartieDeBatailleNavale\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj": {
+              "projectPath": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
