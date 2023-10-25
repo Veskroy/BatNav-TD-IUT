@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj": {}
+    "C:\\Temp\\kpat0001\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj": {
+    "C:\\Temp\\kpat0001\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj",
+        "projectUniqueName": "C:\\Temp\\kpat0001\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj",
         "projectName": "MoteurDeBatailleNavale",
-        "projectPath": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj",
+        "projectPath": "C:\\Temp\\kpat0001\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\MoteurDeBatailleNavale.csproj",
         "packagesPath": "C:\\Users\\kpat0001\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\obj\\",
+        "outputPath": "C:\\Temp\\kpat0001\\s3_poo_c3\\Bataillenavale\\MoteurDeBatailleNavale\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

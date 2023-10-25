@@ -50,13 +50,13 @@ namespace JouerUnePartieDeBatailleNavale
 
         public void IntervertirLesRôlesDesJoueurs()
         {
-            if(Défenseur == Joueur1 || Attaquant == Joueur2)
+            if(Défenseur == Joueur1 && Attaquant == Joueur2)
             {
                 Défenseur = Joueur2;
                 Attaquant = Joueur1;
 
             }
-            if(Défenseur == Joueur2 || Attaquant == Joueur1)
+            else
             {
                 Défenseur = Joueur1;
                 Attaquant = Joueur2;
@@ -80,8 +80,7 @@ namespace JouerUnePartieDeBatailleNavale
                 result = Défenseur.Défenseur_FournirLeRésultatDuTir(coo);
                 Attaquant.Attaquant_GérerLeRésultatDuTir(coo,result);
             }
-            Console.WriteLine($"Mission succes {Attaquant} it's time to back");
-            Console.WriteLine($"{Défenseur} Back to base, We need to talk ");
+            Console.WriteLine($"Mission succes it's time to back");
         }
 
 

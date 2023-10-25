@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tA/J3xOArtjI8E55pD9B1p6aVqx3KLfdzIAb4vLFPuf3YXn1TKz7i2uHvZrqzdKP3+dm/Ppu6gBzIJkNwhv/jQ==",
+  "dgSpecHash": "8LJfzoqf2b9s7WP3+8JoGvcy5AKKCuQnrsZ5lbVVL+0kJQrPyLwq9S2iXZpXh9OG0o+XkNz5L61Yd/IAYiDiKg==",
   "success": true,
-  "projectFilePath": "C:\\Temp\\kpat0001\\TD3-2\\s3_poo_c3\\Bataillenavale\\TestsDuMoteurDeBatailleNavale\\TestsDuMoteurDeBatailleNavale.csproj",
+  "projectFilePath": "C:\\Temp\\kpat0001\\s3_poo_c3\\Bataillenavale\\TestsDuMoteurDeBatailleNavale\\TestsDuMoteurDeBatailleNavale.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kpat0001\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\kpat0001\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

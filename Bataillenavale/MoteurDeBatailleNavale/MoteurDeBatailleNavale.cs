@@ -46,7 +46,7 @@
         public CoordonnéesDeBatailleNavale(char colone, byte ligne)
         {
             List<char> liste = new List<char> { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J' };
-            if (!(liste.Contains(colone)) && (ligne < 1 && ligne > 10)) 
+            if (!(liste.Contains(colone)) || (ligne < 1 && ligne > 10)) 
             { throw new ArgumentOutOfRangeException(); }
 
             this.Colone = colone;
@@ -60,7 +60,7 @@
             {
                 if (obj is CoordonnéesDeBatailleNavale coo)
                 {
-                    if (this.Colone == coo.Colone || this.Ligne == coo.Ligne)
+                    if (this.Colone == coo.Colone && this.Ligne == coo.Ligne)
                     {
                         return true;
                     }
